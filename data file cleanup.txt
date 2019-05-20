@@ -1,0 +1,36 @@
+
+# List of commands used to clean up the data files (Wes)
+
+# bmeoutput_clean.csv:
+
+echo time,temp,pressure,humidity > bmeoutput_clean.csv
+cat bmeoutput.csv | sed 's/  \;\;--\;\;  /,/g' | sed 's/,,/,/g' | \
+awk -F, '{print $1","$2","$3","$4}' >> bmeoutput_clean.csv
+
+# UVoutput_clean.csv:
+
+echo time,uvindex > UVoutput_clean.csv
+cat UVoutput.csv | sed 's/  \;\;--\;\;  /,/g' | sed 's/,,/,/g' | \
+awk -F, '{print $1","$2}' >> UVoutput_clean.csv
+
+# WiPi_gps_cropt.csv:
+
+# All that I did here was open the raw file and remove everything from before
+# the final row of column titles: i.e., the file had a lot of data from other
+# runs and I simply took it out (I "cropped" the data from launch day).
+
+# Thermoutput_clean.csv:
+
+# This file has some temperature readings that are offset: we can write a script
+# if the offset is systematic and if there are too many, or we can just make
+# manual edits.  So far, I just did the minimal cleaning:
+
+echo time,temp > Thermoutput_clean.csv
+cat Thermoutput.csv | sed 's/  \;\;--\;\;  /,/g' | sed 's/,,/,/g' | \
+awk -F, '{print $1","$2}' >> Thermoutput_clean.csv
+
+# co2output_clean.csv:
+
+echo time,co2,voc,temp > co2output_clean.csv
+cat co2output.csv | sed 's/  \;\;--\;\;  /,/g' | sed 's/,,/,/g' | \
+awk -F, '{print $1","$2","$3","$4}' >> co2output_clean.csv

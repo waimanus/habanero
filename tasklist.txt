@@ -1,7 +1,7 @@
 
 + Habanero data analysis tasks
 
-- clean-up log files for analysis : Wes
+x clean-up log files for analysis : Wes
 - clean-up raw transmission file for analysis
 - determine correspondence of Pi timestamps to UTC in aprs log
 - determine correspondence of Pi timestamps to elevation
