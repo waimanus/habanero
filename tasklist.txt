@@ -1,0 +1,20 @@
+
++ Habanero data analysis tasks
+
+- clean-up log files for analysis : Wes
+- clean-up raw transmission file for analysis
+- determine correspondence of Pi timestamps to UTC in aprs log
+- determine correspondence of Pi timestamps to elevation
+- establish "zero time" in UTC (some number of minutes before launch)
+- plot bme data versus time in seconds from "zero time" (ZT)
+- plot bme data versus elevation in km
+- plot thermocouple data versus time in seconds from "zero time" (ZT)
+- plot thermocouple data versus elevation in km
+- plot uv data versus time from ZT
+- plot uv data versus elevation in km
+- plot co2 data versus time from ZT
+- plot co2 data versus elevation in km
+- plot WiPi gps data versus time from ZT
+- plot gyro output data versus time from ZT
+- plot transmitted data points for various sensors over foregoing plots
+
