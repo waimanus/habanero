@@ -10,3 +10,4 @@ raw/other    = other files downloaded during the recovery event
 raw/aprs     = raw aprs data from aprs.fi
 
 prc/...    = files that have been processed for ease of analysis/plotting
+plt/...    = plots, graphs
