@@ -1,12 +1,12 @@
 # habanero
 Habanero data
 
-raw logged   = data logged on the onboard computers WiPi, Chonk, and Smonk.
+raw/logged   = data logged on the onboard computers WiPi, Chonk, and Smonk.
 
-raw transmit = data logged for transmission as well as the raw transmitted data
+raw/transmit = data logged for transmission as well as the raw transmitted data
 
-raw other    = other files downloaded during the recovery event
+raw/other    = other files downloaded during the recovery event
 
-raw aprs     = raw aprs data from aprs.fi
+raw/aprs     = raw aprs data from aprs.fi
 
-processed    = files that have been processed for ease of analysis/plotting
+pro/...    = files that have been processed for ease of analysis/plotting
