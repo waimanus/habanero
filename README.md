@@ -4,6 +4,8 @@ Habanero data & analysis
 
 jup/...      = jupyter notebook used to produce all plots 
 
+map/...      = maps of flight path 
+
 prc/...      = files that have been processed for ease of analysis/plotting
 
 plt/...      = plots, graphs
