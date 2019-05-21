@@ -23,7 +23,7 @@ for i in range(ep.len()):
     timeinsec= calendar.timegm(time.strptime(currtime,'%Y-%m-%d %H:%M:%S'))
     if np.isnan(ep.ndct['speed'][i]):
         ep.ndct['speed'][i] = 0.0
-    times.append(timeinsec+4*3600)
+    times.append(timeinsec)
 
 for fld in epout.flds:
     epout.ndct[fld] = ep.ndct[fld]

@@ -1,0 +1,26 @@
+tsummit (approximate burst altitude) for each measurement/sensor:
+
+---------
+tsummit in system time (in seconds since midnight morning of 19-05-08 or 1552788000)
+
+tsummit from BME_temp = 270460
+tsummit from BME_press = 270430
+
+---------
+tsummit in UTC seconds since epoch
+
+tsummit from WiPi_gps is between 1557604465 and 1557606195
+tsummit from APRS = 1557604997
+
+---------
+T0 (10 min before launch) = 1557598900 (based using WiPi data)
+LAUNCH = 1557599500 (based using WiPi data)
+BURST = 1557604997 (based using APRS data)
+
+---------
+smonk conversion = -264948
+
+CHONK conversion = -266986
+
+---------
+
